@@ -1,0 +1,39 @@
+a.navbar-brand img {
+	display: inline-block;
+}
+
+.navbar {
+	height: 90px;
+	background:black;
+	border: 1px solid black;
+	overflow:  
+}
+
+ul.navbar-nav li  {
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+.navbar-header a.navbar-brand { /*css for navbar-brandname*/
+	font-size: 25px;
+	color: #E73BBA;
+	font-family: 'Sonsie One', cursive;
+}
+
+.navbar-header a.navbar-brand:hover { /*change hover effect color on navbar-brandname*/
+	color: #E73BBA;
+}
+
+a.navbar-brand img {
+	margin-right: 15px;
+}
+
+.nav.navbar-nav.navbar-right li a {
+	color: #E73BBA;
+	font-size: 25px;
+	font-family: 'Song Myung', serif;
+}
+
+button.navbar-toggle.collapsed span.icon-bar {
+	background-color: green;
+}
