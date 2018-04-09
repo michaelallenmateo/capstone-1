@@ -1,0 +1,42 @@
+body {
+	padding-top: 110px; /*include a padding of body */
+	background-color: black;
+}
+
+div.container {
+	height: 500px;
+	width: 100%;
+	border: 2px solid red;
+	background-image: url(../img/landingimage2.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.leftside img {
+	width: 50%;
+	height: 60%;
+	float: left;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 50px;
+	border: 2px solid green;
+}
+
+.floatright {
+	width: 50%;
+	float: right;
+	margin-top: 100px;
+	border: 2px solid blue;
+}
+
+h1	{
+	text-align: center;
+	color: white;
+}
+
+.floatright p {
+	color: white;
+	font-size: 20px;
+}

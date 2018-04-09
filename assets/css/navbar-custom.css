@@ -4,18 +4,31 @@ a.navbar-brand img {
 
 .navbar {
 	height: 90px;
-	background:black;
+	background:black;/*change navbar bg color*/
 	border: 1px solid black;
-	overflow:  
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
-ul.navbar-nav li  {
+.nav.navbar-nav.navbar-right {
+	background-color: rgba(0, 0, 0, 1);
+}
+
+
+
+ul.navbar-nav li  {				/*select navbar menus for becoming large when hovered*/
 	margin-top: 15px;
 	margin-right: 10px;
+	transition: all 0.3s;
+}
+
+ul.navbar-nav li:hover {		/*make navbar menus enlarge upon hover*/
+	transform: scale(1.2);
 }
 
 .navbar-header a.navbar-brand { /*css for navbar-brandname*/
 	font-size: 25px;
+	padding-top: 18px;
 	color: #E73BBA;
 	font-family: 'Sonsie One', cursive;
 }
@@ -30,10 +43,93 @@ a.navbar-brand img {
 
 .nav.navbar-nav.navbar-right li a {
 	color: #E73BBA;
-	font-size: 25px;
-	font-family: 'Song Myung', serif;
+	font-size: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
 }
 
-button.navbar-toggle.collapsed span.icon-bar {
-	background-color: green;
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {  /*remove unwanted white line in the navbar*/
+	border: 0;
+  	box-shadow: none;
+}
+
+.navbar-toggle .icon-bar,
+.navbar-default .navbar-toggle,				/*make toggle icon background color black even not selected icon*/
+.navbar-default .navbar-toggle:focus {		/*make toggle icon background color black when selected icon*/
+    background-color:black;
+    border: 1px solid #E73BBA;
+}
+
+.navbar-default .navbar-toggle:hover {		/*make toggle icon background color black even clicked outside the screen area*/
+	background-color: black;
+}
+
+
+
+/*mobile style layout*/
+@media only screen and (max-width: 400px) {
+	
+
+	a.navbar-brand img {
+		height: 30px;
+	}
+
+	.navbar-header a.navbar-brand { /*css for navbar-brandname*/
+	font-size: 15px;
+	}
+
+	div.navbar-header button {
+	margin-top: 12px;
+	margin-bottom: 15px;
+	font-size: 25px;
+	}
+
+	.nav.navbar-nav.navbar-right li a {
+	font-size: 12px;
+	line-height: normal;
+	padding-left: 10px;
+	margin: 0;
+	}
+}
+
+/*tablet*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    
+	.navbar {
+	height: 70px;
+	}
+
+    .navbar-header button{
+    	margin-top: 15px;
+    }
+
+    a.navbar-brand img {
+		padding-top: auto;
+	}
+
+	.navbar-header a.navbar-brand { /*css for navbar-brandname*/
+	padding-top: 10px;
+	}
+
+	div.navbar-header button {
+	padding-top: 10px;
+	}
+
+	.nav.navbar-nav.navbar-right.pull-right li a {
+		margin: 0;
+		padding-top: 0;
+		padding-bottom: 15px;
+		font-size: 12px;
+	}
+
+}
+
+/*Desktop*/
+
+@media only screen and (min-width: 961px) {
+
+
+
 }
