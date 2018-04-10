@@ -1,0 +1,510 @@
+body {
+	padding-top: 80px; /*include a padding of body */
+	background-color: black; /*fallback background incase of error in image*/
+	height: auto;
+}
+
+div.about-containertop {
+	height: 650px;
+	width: 100%;
+	/*border: 2px solid red;*/
+	background-image: url(../img/aboutbg1.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.leftside1 img {
+	width: 50%;
+	height: 60%;
+	float: left;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 100px;
+	/*border: 2px solid green;*/
+}
+
+.floatright1 {
+	width: 50%;
+	float: right;
+	margin-top: 140px;
+	padding-left: 10px;
+	/*border: 2px solid blue;*/
+
+}
+
+.floatright1 h1	{
+	text-align: center;
+	color: white;
+	font-family: 'Anton', sans-serif;
+}
+
+.floatright1 p {
+	color: white;
+	font-size: 30px;
+	font-family: 'Handlee', cursive;
+}
+
+/*2*/
+
+div.about-containermid {
+	height: 650px;
+	width: 100%;
+	margin-top: 0;
+	/*border: 2px solid red;*/
+	background-image: url(../img/aboutbg2.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.rightside2 img {
+	width: 50%;
+	height: 60%;
+	float: right;
+	margin-top: 100px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 50px;
+	/*border: 2px solid green;*/
+}
+
+.floatleft2 {
+	width: 50%;
+	float: left;
+	margin-top: 180px;
+	padding-left: 10px;
+	/*border: 2px solid blue;*/
+
+}
+
+.floatleft2 h1	{
+	text-align: center;
+	color: white;
+	font-family: 'Anton', sans-serif;
+}
+
+.floatleft2 p {
+	color: white;
+	/*text-align: center;*/
+	font-size: 30px;
+	font-family: 'Handlee', cursive;
+}
+
+/*3*/
+div.about-containerbottom {
+	height: 650px;
+	width: 100%;
+	/*border: 2px solid violet;*/
+	background-image: url(../img/aboutbg3.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.leftside3 img {
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-top: 100px;
+	padding-right: 50px;
+	padding-left: 150px;
+	padding-top: 50px;
+	/*border: 2px solid green;*/
+}
+
+.floatright3 {
+	width: 50%;
+	height: 20%;
+	float: right;
+	margin-top: 180px;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*border: 2px solid blue;*/
+
+}
+
+.floatright3 h1	{
+	text-align: center;
+	color: white;
+	font-family: 'Anton', sans-serif;
+}
+
+.floatright3 p {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-family: 'Handlee', cursive;
+}
+
+/*4*/
+
+div.about-containerfooter {
+	height: 650px;
+	width: 100%;
+	/*border: 2px solid red;*/
+	background-image: url(../img/aboutbg4.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.rightside4 {
+	width: 30%;
+	height: 300px;
+	float: right;
+	margin-top: 150px;
+	margin-right: 100px;
+	padding-right: 50px;
+	padding-left: 75px;
+	padding-top: 50px;
+	background-color: rgba(0, 0, 0, 0.5);
+	/*border: 2px solid green;*/
+}
+
+.floatleft4 {
+	width: 50%;
+	float: left;
+	margin-top: 200px;
+	margin-left: 100px;
+	padding-left: 10px;
+	/*border: 2px solid blue;*/
+
+}
+
+.floatleft4 h1	{
+	text-align: center;
+	color: white;
+	font-family: 'Anton', sans-serif;
+}
+
+.floatleft4 p {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Handlee', cursive;
+}
+table {
+	height: 10px;
+}
+
+
+th {
+	font-size: 25px;
+	color: #F0F3F4;
+	border-bottom: 2px solid #F0F3F4;
+}
+
+td {
+	height: 20px;
+	font-size: 15px;
+	color: #F0F3F4;
+}
+
+
+/*mobile style layout*/
+@media only screen and (max-width: 400px) {
+
+	div.about-containertop {
+		height: 500px;
+	}
+
+	.leftside1 img {
+		width:80%;
+		height: 50%; 
+		float: none;
+		margin-left: 40px;
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-top: 50px;
+		/*border: 2px solid green;*/
+	}
+
+	.floatright1 {
+		width: 80%;
+		float: none;
+		margin-top: 30px;
+		padding-left: 10px;
+		margin-left: 30px;
+		/*border: 2px solid blue;*/
+	}
+
+	.floatright1 h1	{
+		font-size: 35px;
+	}
+
+	.floatright1 p {
+		font-size: 15px;
+	
+	}
+
+	/*2*/
+	div.about-containermid {
+		height: 650px;
+	}
+
+	.rightside2 img {
+		width: 80%;
+		height: 50%;
+		float: none;
+		margin-top: 0;
+		margin-left: 35px;
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-top: 50px;
+		/*border: 2px solid green;*/
+	}
+
+	.floatleft2 {
+		width: 80%;
+		margin-top: 0;
+		padding-top: 150px;
+		padding-left: 10px;
+		margin-left: 30px;
+		float: none;
+		/*border: 2px solid blue;*/
+
+	}
+
+	.floatleft2 h1	{
+		font-size: 35px;
+	}
+
+	.floatleft2 p {
+		font-size: 15px;
+	}
+
+	/*3*/
+	div.about-containerbottom {
+		height: 650px;
+		width: 100%;
+		/*border: 2px solid violet;*/
+		background-image: url(../img/aboutbg3.jpg);
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.leftside3 img {
+		width:80%;
+		height: 50%; 
+		float: none;
+		margin-left: 40px;
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-top: 50px;
+		/*border: 2px solid green;*/
+	}
+
+	.floatright3 {
+		width: 80%;
+		float: none;
+		margin-top: 30px;
+		padding-left: 10px;
+		margin-left: 30px;
+
+	}
+
+	.floatright3 h1	{
+		font-size: 35px;
+	}
+
+	.floatright3 p {
+		font-size: 15px;
+	}
+
+	/*4*/
+	div.about-containerfooter {
+		height: 650px;
+	}
+
+	.rightside4 {
+		width: 80%;
+		height: 50%;
+		float: none;
+		margin-top: 0;
+		margin-left: 35px;
+		padding-right: 10px;
+		padding-left: 30px;
+		padding-top: 50px;
+		/*border: 2px solid green;*/
+	}
+
+	.floatleft4 {
+		width: 80%;
+		margin-top: 0;
+		padding-top: 100px;
+		padding-left: 0;
+		margin-left: 30px;
+		float: none;
+		/*border: 2px solid blue;*/
+
+	}
+
+	.floatleft4 h1	{
+		font-size: 35px;
+	}
+
+	.floatleft4 p {
+		font-size: 15px;
+	}
+}	
+
+/*tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	div.about-containertop {
+		height: 350px;
+	}
+
+	.leftside1 img {
+		width:50%;
+		height: 100%; 
+		float: left;
+		margin-top: 10%;
+		padding-right: 10px;
+		padding-top: 15px;
+		/*border: 2px solid green;*/
+	}
+
+	.floatright1 {
+		width: 40%;
+		float: right;
+		margin-top: 10%;
+		padding-left: 10px;
+		margin-right: 50px;
+		/*border: 2px solid blue;*/
+	}
+
+	.floatright1 h1	{
+		font-size: 35px;
+	}
+
+	.floatright1 p {
+		font-size: 18px;
+	}
+
+	/*2*/
+	div.about-containermid {
+		height: 350px;
+	}
+
+	.rightside2 img {
+		width: 50%;
+		height: 100%;
+		float: right;
+		margin-top: 0;
+		margin-left: 35px;
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-top: 10%;
+		/*border: 2px solid green;*/
+	}
+
+	.floatleft2 {
+		width: 40%;
+		margin-top: 0;
+		padding-top: 15%;
+		padding-left: 10px;
+		margin-left: 10px;
+		float: left;
+		/*border: 2px solid blue;*/
+
+	}
+
+	.floatleft2 h1	{
+		font-size: 35px;
+	}
+
+	.floatleft2 p {
+		font-size: 18px;
+	}
+
+	/*3*/
+	div.about-containerbottom {
+		height: 350px;
+		width: 100%;
+		/*border: 2px solid violet;*/
+		background-image: url(../img/aboutbg3.jpg);
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.leftside3 img {
+		width:40%;
+		height: 100%; 
+		float: left;
+		margin-top: 5%;
+		padding-left: 10px;
+		padding-right: 10px;
+		/*border: 2px solid green;*/
+	}
+
+	.floatright3 {
+		width: 50%;
+		float: right;
+		margin-top: 5%;
+		padding-left: 10px;
+		margin-left: 30px;
+		/*border: 1px solid blue;*/
+
+	}
+
+	.floatright3 h1	{
+		font-size: 35px;
+	}
+
+	.floatright3 p {
+		font-size: 18px;
+	}
+
+	/*4*/
+	div.about-containerfooter {
+		height: 350px;
+	}
+
+	.rightside4 {
+		width: auto;
+		height: auto;
+		float: right;
+		margin: 0;
+		padding: 0;
+		margin-top: 10%;
+		margin-right: 10%;
+		padding-top: 10px;
+		padding-left: 10px;
+		/*border: 2px solid green;*/
+	}
+
+	.floatleft4 {
+		width: 40%;
+		height: 300px;
+		margin-top: 0;
+		padding-top: 100px;
+		padding-left: 0;
+		margin-left: 10px;
+		float: left;
+		/*border: 2px solid blue;*/
+
+	}
+
+	.floatleft4 h1	{
+		font-size: 35px;
+	}
+
+	.floatleft4 p {
+		font-size: 18px;
+	}
+
+}	
+
+/*desktop*/
+@media only screen and (min-width: 961px) {
+
+}	

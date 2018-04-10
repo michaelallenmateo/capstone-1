@@ -65,11 +65,23 @@ a.navbar-brand img {
 	background-color: black;
 }
 
+.navbar-header {
+	padding: 0;
+}
+
 
 
 /*mobile style layout*/
 @media only screen and (max-width: 400px) {
 	
+	.navbar {
+		height: 50px;
+	}
+
+	.navbar-header {
+	padding: 0;
+	}
+
 
 	a.navbar-brand img {
 		height: 30px;
@@ -86,7 +98,7 @@ a.navbar-brand img {
 	}
 
 	.nav.navbar-nav.navbar-right li a {
-	font-size: 12px;
+	font-size: 25px;
 	line-height: normal;
 	padding-left: 10px;
 	margin: 0;
@@ -121,7 +133,7 @@ a.navbar-brand img {
 		margin: 0;
 		padding-top: 0;
 		padding-bottom: 15px;
-		font-size: 12px;
+		font-size: 25px;
 	}
 
 }

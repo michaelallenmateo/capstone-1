@@ -1,0 +1,41 @@
+/*about-footer*/
+.aboutfooter {
+	height: 100px;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 20px;
+	/*border: 2px solid green;*/
+}
+
+/*social media footer*/
+
+footer div.footerlink {
+	text-align: center;
+	/*border: 2px solid red;*/
+}
+
+div.footerparagraph p {
+	color: #B3B6B7;
+	text-align: center;
+}
+
+div.footerlink a {
+	color: #E73BBA;
+	margin-left: 10px;
+	/*border: 2px solid blue;*/
+}
+
+/*mobile style layout*/
+@media only screen and (max-width: 400px) {
+	
+}	
+
+/*tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+}	
+
+/*desktop*/
+@media only screen and (min-width: 961px) {
+	
+}	
