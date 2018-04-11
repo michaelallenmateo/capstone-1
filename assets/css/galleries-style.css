@@ -1,0 +1,89 @@
+html {
+	position: relative; /*added 1*/
+	min-height: 100%; /*added 1*/
+}	
+
+body {
+	padding-top: 80px; /*include a padding of body */
+	background-color: black; /*fallback background incase of error in image*/
+	background-image: url(../img/bg-galleries.jpg);
+	background-repeat: repeat-x;
+	background-size: cover;
+	height: auto;
+	margin-bottom: 80px;/*added 1*/
+}
+
+h1 {
+	font-family: 'Russo One', sans-serif;
+	width: 50%;
+	margin-left: 27%;
+	margin-top: 5%;
+	color: #E73BBA;
+	text-align: center;
+	border: 2px solid #E73BBA;
+}
+
+.rowcontainer {
+	height: auto;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	/*margin-left: 5%;
+	margin-right: 5%;*/
+	padding-top: 5%;
+	/*background-color: rgba(192,192,192,0.3);*/
+}
+
+.rowcontainer:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.col-xs-12.col-md-6 {
+	background-color: rgba(255, 255, 255, 0);
+	border-style: none;
+	padding: 0;
+}
+
+
+.col-xs-12.col-md-6 img {
+	max-width: 80%;
+	height: auto;
+	/*border: 2px solid red;*/
+	transition: all;
+}
+
+.col-xs-12.col-md-6 img:hover {
+	transform: scale(1.1);
+}
+
+
+/*mobile style layout*/
+@media only screen and (max-width: 400px) {
+	h1 {
+	width: 75%;
+	margin-left: 14%;
+	margin-top: 5%;
+	color: white;
+	text-align: center;
+	border: 2px solid white;
+}
+}    
+
+/*tablet*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    
+
+}
+
+/*Desktop*/
+
+@media only screen and (min-width: 961px) {
+
+   
+
+
+}
+
+

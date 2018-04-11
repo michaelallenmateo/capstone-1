@@ -1,7 +1,13 @@
+html {
+	position: relative; /*added 1*/
+	min-height: 100%; /*added 1*/
+}
+
 body {
 	padding-top: 80px; /*include a padding of body */
 	background-color: black; /*fallback background incase of error in image*/
 	height: auto;
+	margin-bottom: 80px;/*added 1*/
 }
 
 div.about-containertop {
@@ -154,12 +160,12 @@ div.about-containerfooter {
 }
 
 .rightside4 {
-	width: 30%;
-	height: 300px;
+	width: 40%;
+	height: 350px;
 	float: right;
 	margin-top: 150px;
 	margin-right: 100px;
-	padding-right: 50px;
+	padding-right: 10px;
 	padding-left: 75px;
 	padding-top: 50px;
 	background-color: rgba(0, 0, 0, 0.5);
@@ -167,10 +173,10 @@ div.about-containerfooter {
 }
 
 .floatleft4 {
-	width: 50%;
+	width: 40%;
 	float: left;
 	margin-top: 200px;
-	margin-left: 100px;
+	margin-left: 50px;
 	padding-left: 10px;
 	/*border: 2px solid blue;*/
 
@@ -201,7 +207,7 @@ th {
 
 td {
 	height: 20px;
-	font-size: 15px;
+	font-size: 20px;
 	color: #F0F3F4;
 }
 
@@ -325,7 +331,7 @@ td {
 
 	.rightside4 {
 		width: 80%;
-		height: 50%;
+		height: 40%;
 		float: none;
 		margin-top: 0;
 		margin-left: 35px;
@@ -337,6 +343,7 @@ td {
 
 	.floatleft4 {
 		width: 80%;
+		height: auto;
 		margin-top: 0;
 		padding-top: 100px;
 		padding-left: 0;
@@ -353,6 +360,11 @@ td {
 	.floatleft4 p {
 		font-size: 15px;
 	}
+
+	th, 
+	td {
+		font-size: 15px;
+	}
 }	
 
 /*tablet*/
@@ -366,6 +378,7 @@ td {
 		height: 100%; 
 		float: left;
 		margin-top: 10%;
+		padding-left:10px; 
 		padding-right: 10px;
 		padding-top: 15px;
 		/*border: 2px solid green;*/
@@ -373,10 +386,11 @@ td {
 
 	.floatright1 {
 		width: 40%;
+		height: auto;
 		float: right;
-		margin-top: 10%;
+		margin-top: 5%;
 		padding-left: 10px;
-		margin-right: 50px;
+		margin-right: 10px;
 		/*border: 2px solid blue;*/
 	}
 
@@ -394,23 +408,24 @@ td {
 	}
 
 	.rightside2 img {
-		width: 50%;
-		height: 100%;
+		width: 40%;
+		height: auto;
 		float: right;
-		margin-top: 0;
-		margin-left: 35px;
+		margin: 0;
+		margin-top: 15%;
+		margin-right: 20px;
 		padding-right: 10px;
 		padding-left: 10px;
-		padding-top: 10%;
+		padding-top: 0;
 		/*border: 2px solid green;*/
 	}
 
 	.floatleft2 {
-		width: 40%;
+		width: 50%;
 		margin-top: 0;
 		padding-top: 15%;
 		padding-left: 10px;
-		margin-left: 10px;
+		/*margin-left: 10px;*/
 		float: left;
 		/*border: 2px solid blue;*/
 
@@ -447,11 +462,11 @@ td {
 	}
 
 	.floatright3 {
-		width: 50%;
+		width: 55%;
 		float: right;
-		margin-top: 5%;
+		margin-top: 10%;
 		padding-left: 10px;
-		margin-left: 30px;
+		margin-left: 20px;
 		/*border: 1px solid blue;*/
 
 	}
@@ -470,26 +485,25 @@ td {
 	}
 
 	.rightside4 {
-		width: auto;
+		width: 50%;
 		height: auto;
-		float: right;
+		float: left;
 		margin: 0;
 		padding: 0;
 		margin-top: 10%;
-		margin-right: 10%;
-		padding-top: 10px;
-		padding-left: 10px;
+		margin-left: 10%;
+		padding-left: 20px;
 		/*border: 2px solid green;*/
 	}
 
 	.floatleft4 {
-		width: 40%;
-		height: 300px;
-		margin-top: 0;
-		padding-top: 100px;
-		padding-left: 0;
-		margin-left: 10px;
+		width: 35%;
+		height: 210px;
 		float: left;
+		margin: 0;
+		margin-top: 10%;
+		margin-left: 10px;
+		padding: 0;
 		/*border: 2px solid blue;*/
 
 	}
@@ -502,9 +516,14 @@ td {
 		font-size: 18px;
 	}
 
+	th, 
+	td {
+		font-size: 15px;
+	}
+
 }	
 
 /*desktop*/
 @media only screen and (min-width: 961px) {
-
+	
 }	

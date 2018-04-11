@@ -1,0 +1,58 @@
+html {
+	position: relative; /*added 1*/
+	min-height: 100%; /*added 1*/
+}	
+
+body {
+	padding-top: 80px; /*include a padding of body */
+	background-color: black; /*fallback background incase of error in image*/
+	background-image: url(../img/bg-events.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: auto;
+	margin-bottom: 80px;/*added 1*/
+}
+.eventswrapper {
+	margin-left: 10%;
+	background-color: rgba(0,0,0,0.2);
+	height: auto;
+	width: 80%;
+}
+
+
+h1 {
+	font-family: 'Russo One', sans-serif;
+	width: 50%;
+	margin-left: 27%;
+	margin-top: 5%;
+	color: #E73BBA;
+	text-align: center;
+	border: 2px solid #E73BBA;
+}
+
+.countdown {
+	text-align: center;
+  	font-size: 60px;
+  	margin-top:15px;
+  	margin-left: 20px;
+  	/*border: 2px solid red;*/
+}
+
+table {
+	width: 80%;
+	margin-left: 10%;
+}
+
+td {
+	font-size: 35px;
+	color: white;
+	margin-left: 5%;
+	padding-left: 80px;
+	padding-right: 50px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	font-family: 'Russo One', sans-serif;
+	/*border: 2px solid red;*/
+}
