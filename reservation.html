@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<title>DrunknPub - Contact</title>
+	<title>DrunknPub - Reservation</title>
 
 	<!-- Import of Google Font Style -->
   	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One|Shadows+Into+Light|Handlee|Anton" rel="stylesheet">
@@ -15,7 +15,7 @@
 	<!-- External CSS Bootstrap -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<!-- Internal CSS Bootstrap -->
-  	<link rel="stylesheet" type="text/css" href="assets/css/contact-style.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/reservation-style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/navbar-custom.css">
   	<link rel="stylesheet" type="text/css" href="assets/css/footer-custom.css">
 </head>
@@ -42,14 +42,13 @@
         </div><!-- /.navbar-collapse -->
     </nav><!-- end of navbar -->
 
-
-    <div class="container">
+        <div class="container">
 
     <form class="well form-horizontal" action=" " method="post"  id="contact_form">
 <fieldset>
 
 <!-- Form Name -->
-<legend>Contact Us Today!</legend>
+<legend><center><h2><b>Reservation Form</b></h2></center></legend><br>
 
 <!-- Text input-->
 
@@ -75,6 +74,42 @@
   </div>
 </div>
 
+  <div class="form-group"> 
+  <label class="col-md-4 control-label">Gender</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <select name="department" class="form-control selectpicker">
+      <option value="">Select your Gender</option>
+      <option>Male</option>
+      <option>Female</option>
+    </select>
+  </div>
+</div>
+</div>
+
+
+  <div class="form-group"> 
+  <label class="col-md-4 control-label">Event</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="department" class="form-control selectpicker">
+      <option value="">Select your Event</option>
+      <option>April 16, 2018 - Salbakuta</option>
+      <option>April 17, 2018 - IVY of Spades</option>
+      <option>April 18, 2018 - Imago</option>
+      <option>April 19, 2018 - Ex Battalion</option>
+      <option>April 20, 2018 - Eraserheads</option>
+      <option>April 21, 2018 - DJ Kardashian</option>
+    </select>
+  </div>
+</div>
+</div>
+  
+
+
+
 <!-- Text input-->
        <div class="form-group">
   <label class="col-md-4 control-label">E-Mail</label>  
@@ -94,7 +129,7 @@
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-  <input name="phone" placeholder="Telephone or Mobile No." class="form-control" type="text">
+  <input name="contact_no" placeholder="Telephone or Mobile No." class="form-control" type="text">
     </div>
   </div>
 </div>
@@ -110,21 +145,33 @@
   </div>
   </div>
 </div>
+
 <!-- Button -->
-<div class="form-group">
+<div class="form-group button">
   <label class="col-md-4 control-label"></label>
   <div class="col-md-4">
-    <a href="contact-success-page.html">Send <span class="glyphicon glyphicon-send"></span>
+    <a href="reservation-success-page.html">Send Reservation <span class="glyphicon glyphicon-check"></span>
       </a>
+  </div> 
+  <div class="col-md-4">   
+    <a href="events.html">Go back to Events <span class="glyphicon glyphicon-arrow-left"></span>
+      </a>  
   </div>
 </div>
+
+
 
 </fieldset>
 </form>
 </div>
     </div><!-- /.container -->
 
-<footer class="footer">
+
+
+
+
+
+    <footer class="footer">
         <div class="footerparagraph">
             <p>Disclaimer: No copyright infringment is intended. This is only for educational purposes and not for profit. Some asset/s used are not owned by the developer unless otherwise stated; the credit goes to the owner.</p>
         </div>

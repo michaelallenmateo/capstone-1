@@ -1,0 +1,28 @@
+html {
+	position: relative; /*added 1*/
+	min-height: 100%; /*added 1*/
+}	
+
+body {
+	padding-top: 80px; /*include a padding of body */
+	background-color: black; /*fallback background incase of error in image*/
+	background-image: url(../img/bg-contact.jpg);
+	background-repeat: repeat-x;
+	background-size: cover;
+	height: auto;
+	margin-bottom: 80px;/*added 1*/
+}
+
+.container {
+	margin-top: 5%;
+	width: 60%;
+}
+
+.form-group a {
+	border-radius: 25px;
+	font-size: 18px;
+	color: black;
+	background-color: rgba(255,255,255,0);
+	text-decoration: none;
+}
+

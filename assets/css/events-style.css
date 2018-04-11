@@ -42,6 +42,7 @@ h1 {
 
 table {
 	width: 80%;
+	margin-top: 5%;
 	margin-left: 10%;
 }
 
@@ -49,10 +50,18 @@ td {
 	font-size: 35px;
 	color: white;
 	margin-left: 5%;
-	padding-left: 80px;
-	padding-right: 50px;
+	margin-right: 5%;
+	padding-left: 10px;
+	padding-right: 10px;
 	padding-top: 30px;
 	padding-bottom: 50px;
+	text-align: center;
 	font-family: 'Russo One', sans-serif;
-	/*border: 2px solid red;*/
+	/*border: 2px solid white;*/
+}
+
+td.events a {
+	text-decoration: none;
+	font-size: 35px;
+	color: white;
 }

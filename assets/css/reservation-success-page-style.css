@@ -1,0 +1,31 @@
+html {
+	position: relative; /*added 1*/
+	min-height: 100%; /*added 1*/
+}	
+
+body {
+	padding-top: 80px; /*include a padding of body */
+	background-color: black; /*fallback background incase of error in image*/
+	background-image: url(../img/bg-contact.jpg);
+	background-repeat: repeat-x;
+	background-size: cover;
+	height: auto;
+	margin-bottom: 80px;/*added 1*/
+}
+
+.jumbotron {
+	margin-top: 10%;
+	width: 50%;
+	margin-left: 25%;
+	background-color: 
+}
+
+.jumbotron h1 {
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+}
+
+.jumbotron p {
+	font-family: 'Rajdhani', sans-serif;
+	text-align: center;
+}
