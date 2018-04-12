@@ -1,13 +1,8 @@
-html {
-	position: relative; /*added 1*/
-	min-height: 100%; /*added 1*/
-}
-
 body {
 	padding-top: 80px; /*include a padding of body */
 	background-color: black; /*fallback background incase of error in image*/
 	height: auto;
-	margin-bottom: 80px;/*added 1*/
+	position: relative;
 }
 
 div.about-containertop {
@@ -37,7 +32,6 @@ div.about-containertop {
 	margin-top: 140px;
 	padding-left: 10px;
 	/*border: 2px solid blue;*/
-
 }
 
 .floatright1 h1	{
@@ -210,6 +204,44 @@ td {
 	font-size: 20px;
 	color: #F0F3F4;
 }
+
+.carousel-container h2 {
+	margin-top: 0;
+	padding-top: 50px;
+	width: auto;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+	font-family: 'Anton', sans-serif;
+}
+
+.carousel-container {
+
+	height: auto;
+	width: auto;
+	margin: 0;
+	padding-bottom: 10px;
+	background-color: lightgrey;
+	background-image: url(../img/aboutlast.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.carousel-inner {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	height: 180px;
+}
+
+.carousel-inner p {
+	margin:0;
+	font-size: 28px;
+	color: white;
+	font-family: 'Bubbler One', sans-serif;
+}
+
 
 
 /*mobile style layout*/

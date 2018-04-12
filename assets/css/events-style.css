@@ -1,8 +1,3 @@
-html {
-	position: relative; /*added 1*/
-	min-height: 100%; /*added 1*/
-}	
-
 body {
 	padding-top: 80px; /*include a padding of body */
 	background-color: black; /*fallback background incase of error in image*/
@@ -11,37 +6,74 @@ body {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: auto;
-	margin-bottom: 80px;/*added 1*/
+	
 }
 .eventswrapper {
-	margin-left: 10%;
 	background-color: rgba(0,0,0,0.2);
 	height: auto;
-	width: 80%;
+	width: auto;
 }
 
 
 h1 {
 	font-family: 'Russo One', sans-serif;
-	width: 50%;
-	margin-left: 27%;
-	margin-top: 5%;
+	width: auto;
 	color: #E73BBA;
 	text-align: center;
 	border: 2px solid #E73BBA;
 }
 
-.countdown {
-	text-align: center;
-  	font-size: 60px;
-  	margin-top:15px;
-  	margin-left: 20px;
-  	/*border: 2px solid red;*/
+/*countdown CSS*/
+
+h2 {
+	font-size: 60px;
+	color: white;
 }
+
+div#timer {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Titillium Web', cursive;
+}
+
+span {
+  display: block;
+  font-size: 30px;
+  color: white;
+}
+
+#days {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 100px;
+  color: #db4844;
+}
+#hours {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 100px;
+  color: #f07c22;
+}
+#minutes {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 100px;
+  color: #f6da74;
+}
+#seconds {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 50px;
+  color: #abcd58;
+}	
+
+/*end of countdown CSS*/
 
 table {
 	width: 80%;
+	height: auto;
 	margin-top: 5%;
 	margin-left: 10%;
 }
@@ -64,4 +96,91 @@ td.events a {
 	text-decoration: none;
 	font-size: 35px;
 	color: white;
+	font-family: 'Cormorant Garamond', serif;
+	border: 2px solid white;
+	padding: 5px;
+}
+
+/*mobile style layout*/
+@media only screen and (max-width: 400px) {
+	h1 {
+		width: 100%;
+		text-align:center;
+	}
+
+	div#timer {
+		width: 100%;
+		margin: 0;
+		text-align:center;
+	}
+
+	#timer div {
+		font-size: 50px;
+	}
+
+	#timer div#seconds {
+		font-size: 35px;
+	}
+
+	span {
+		font-size: 15px;
+	}
+
+	table {
+	width: auto;
+	margin-right: 0;
+	margin-left: 0;
+	}
+
+	td {
+	font-size: 12px;
+	}
+
+	td.events a {
+	font-size: 12px;
+	padding: 0;
+	}
+}	
+
+/*tablet*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    h1 {
+		width: 100%;
+		text-align:center;
+	}
+
+	div#timer {
+		width: 100%;
+		margin: 0;
+		text-align:center;
+	}
+
+	#timer div {
+		font-size: 70px;
+	}
+
+	#timer div#seconds {
+		font-size: 50px;
+	}
+
+	span {
+		font-size: 20px;
+	}
+
+	table {
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+	td {
+	font-size: 20px;
+	}
+
+	td.events a {
+	font-size: 20px;
+	padding: 0;
+	}
+
 }

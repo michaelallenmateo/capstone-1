@@ -1,16 +1,11 @@
-html {
-	position: relative; /*added 1*/
-	min-height: 100%; /*added 1*/
-}	
-
 body {
 	padding-top: 80px; /*include a padding of body */
 	background-color: black; /*fallback background incase of error in image*/
-	background-image: url(../img/bg-contact.jpg);
+	background-image: url(../img/bg-success.jpg);
 	background-repeat: repeat-x;
 	background-size: cover;
 	height: auto;
-	margin-bottom: 80px;/*added 1*/
+	height: 100vh !important;
 }
 
 .jumbotron {

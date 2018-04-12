@@ -112,7 +112,7 @@ footer a:hover {
     }
 
     footer {
-        left:28%;
+        left:25%;
         width: 180px;
     }
 
@@ -124,19 +124,19 @@ footer a:hover {
     
     #content {
         position: fixed;
-        left: 15%;
-        top: 45%;
+        left: 8%;
+        top: 35%;
 
     }    
 
     p.first {
-        font-size: 2.5em;
-        line-height: 20px;
+        font-size: 4em;
+        line-height: 50px;
     }
 
     p.second {
-        font-size: 1.5em;
-        line-height: 20px;
+        font-size: 2.5em;
+        line-height: 50px;
     }    
 
     a button.reserve {
@@ -146,8 +146,9 @@ footer a:hover {
     }
 
     footer {
-        right:3%;
-        width: 180px;
+        /*right:3%;*/
+        width: auto;
+        text-align: center;
     }
 
 }
