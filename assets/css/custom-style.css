@@ -15,7 +15,7 @@ body {
 #content {
     position: fixed;
     top: 35%;
-    left: 25%;
+    left: 20%;
     width: 80%;
     /*border: 3px solid red;*/ /*to check positioning of content*/
     z-index: 2;
@@ -124,25 +124,24 @@ footer a:hover {
     
     #content {
         position: fixed;
-        left: 8%;
-        top: 35%;
+        left: 15%;
+        top: 38%;
 
     }    
 
     p.first {
-        font-size: 4em;
+        font-size: 3.5em;
         line-height: 50px;
     }
 
     p.second {
-        font-size: 2.5em;
+        font-size: 2em;
         line-height: 50px;
     }    
 
     a button.reserve {
         border: 1px solid grey;
         border-radius: 5px;
-        line-height: 10px;
     }
 
     footer {
@@ -153,16 +152,3 @@ footer a:hover {
 
 }
 
-/*Desktop*/
-
-@media only screen and (min-width: 961px) {
-
-    #content {
-        position: fixed;
-        left: 25%;
-        top: 40%;
-
-    }  
-
-
-}
