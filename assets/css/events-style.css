@@ -3,7 +3,7 @@ body {
 	background-color: black; /*fallback background incase of error in image*/
 	background-image: url(../img/bg-events.jpg);
 	background-attachment: fixed;
-	background-position: center;
+	background-position: center top;
 	background-size: cover;
 	background-repeat: no-repeat;
 	
